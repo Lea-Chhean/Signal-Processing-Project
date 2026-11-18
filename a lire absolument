@@ -1,0 +1,22 @@
+bon j'ai pas mal avancer voici le lien matlab drive : https://drive.mathworks.com/sharing/5846e984-002a-4cdd-9ed5-385f27190cbf/neg_queries.zip
+
+ j'ai finis toute la chaine shazam , avec la creation d'empreinte / recherche rapide et simu des pannes/bruits
+j'ai ensuite récuperer nos 150 musiques , 100 bases et 50 inconnues , et j'ai gnéré le fichier >tracks_list.txt
+j'ai lancé les expériences et généréer les courbes que vous trouverez dans : >results>
+le projet est performant , sur 100 musiques il trouve la bonne en 9.6x10^^-3 s , 0% de faux positifs sur les inconnues et 0% de confusion
+100% de reussites en MP3/filtre téléphonique/petite reverberation et 94% avec gros bruit blanc /grosse reverberation 
+
+j'ai actualiser le fichier README mais sinon pour que vous comprendiez meiux : 
+
+dans >data vous trouverez >db_tracks: 100Musiques de bases , >neg_queries: 50 inconnues 
+>results : toutes les images pour le rapport
+Les fichiers .m : toutes les étapes pour avoir notre mini-Shazam
+run_all_experiments.m run_Q2_Q3.m et upadate_mp3_results.m > les scripts qui ont générés nos courbes 
+
+
+Si vous voulez tester le projet vous meme,il faut ouvrir main_demo.m  sur matlab et run , vous passer une musique au micro pendant 7 sec ou vous metter un fichier audio et un affiche direct le spectogramme +constellation +nom du son , 
+
+
+si je trouve vos mailq je vous ajouterais directment en "manage members" sur matlab 
+
+il ne manque plus que le rapport puis on fera la video 
